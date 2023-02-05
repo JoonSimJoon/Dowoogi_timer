@@ -22,7 +22,7 @@ function Timer () {
       return (
         // <div>
             <div className="Timer" onClick={timecopy}>
-        
+              김동욱 제대까지: <br/>
             {contdown1}
                 <ReactInterval timeout={1000} enabled={true}
                 callback={() => {setContdown1(js_func.CountDownTimer('09/05/2024 09:00 AM','03/06/2023 01:00 PM').timeresult1);
