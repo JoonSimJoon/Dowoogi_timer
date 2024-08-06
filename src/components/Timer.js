@@ -10,12 +10,12 @@ import ReactDOM from 'react-dom';
 
 function Timer () {
     
-    const [contdown1, setContdown1] = useState(js_func.CountDownTimer('09/05/2024 09:00 AM','03/06/2023 01:00 PM').timeresult1);
-    const [contdown2, setContdown2] = useState(js_func.CountDownTimer('09/05/2024 09:00 AM','03/06/2023 01:00 PM').timeresult2);
+    const [contdown1, setContdown1] = useState(js_func.CountDownTimer('08/07/2024 09:00 AM','03/06/2023 01:00 PM').timeresult1);
+    const [contdown2, setContdown2] = useState(js_func.CountDownTimer('08/07/2024 09:00 AM','03/06/2023 01:00 PM').timeresult2);
     
     function timecopy(e) {
       e.preventDefault();
-      js_func.copyToClipboard(js_func.CountDownTimer('09/05/2024 09:00 AM','03/06/2023 01:00 PM').timeresult3);
+      js_func.copyToClipboard(js_func.CountDownTimer('08/07/2024 09:00 AM','03/06/2023 01:00 PM').timeresult3);
       alert('복사 됨');
     }
     
@@ -25,12 +25,12 @@ function Timer () {
               김동욱 제대까지: <br/>
             {contdown1}
                 <ReactInterval timeout={1000} enabled={true}
-                callback={() => {setContdown1(js_func.CountDownTimer('09/05/2024 09:00 AM','03/06/2023 01:00 PM').timeresult1);
+                callback={() => {setContdown1(js_func.CountDownTimer('08/07/2024 09:00 AM','03/06/2023 01:00 PM').timeresult1);
                 }} />
                 <br/>
             {contdown2}
                 <ReactInterval timeout={1000} enabled={true}
-                callback={() => {setContdown2(js_func.CountDownTimer('09/05/2024 09:00 AM','03/06/2023 01:00 PM').timeresult2);
+                callback={() => {setContdown2(js_func.CountDownTimer('08/07/2024 09:00 AM','03/06/2023 01:00 PM').timeresult2);
                 }} />
 
                 
