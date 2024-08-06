@@ -16,7 +16,7 @@ function YtBox() {
         
         height: '100%',
         width: '100%',
-        playerVars:{modestbranding:1,start:10,end:349,autoplay: 0,mute:0,listType: 'playlist',loop:1}
+        playerVars:{modestbranding:1,start:10,end:349,autoplay: 0,mute:0,listType: 'playlist', loop:1}
     };
     const onReady=(e)=> {
         console.log('onReady');
@@ -31,7 +31,7 @@ function YtBox() {
         console.log('onPlay');
         e.target.setVolume(50);
         // e.target.unMute(); Youtube api can't autoplay with unmute
-        if(String(tmp_vid)=='h8dlyrsHeJc'){
+        if(String(tmp_vid)=='UvyWc4acG7M'){
             if (currentTime < 10) {
                 e.target.seekTo(10);
                 
