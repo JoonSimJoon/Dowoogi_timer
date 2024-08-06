@@ -6,7 +6,7 @@ import YouTube from 'react-youtube';
 
 function YtBox() {
     
-    let videoId='h8dlyrsHeJc';    //h8dlyrsHeJc
+    let videoId='UvyWc4acG7M';    //h8dlyrsHeJc
     let aspectRatio="16:9";            /* default -> "16:9" */
     let overlay="rgba(0,0,0,.0)";                /* default -> null | e.g. "rgba(0,0,0,.4)" */
     let className=null;              /* default -> null */
@@ -16,7 +16,7 @@ function YtBox() {
         
         height: '100%',
         width: '100%',
-        playerVars:{modestbranding:1,start:10,end:349,autoplay: 1,mute:1,listType: 'playlist',list: 'PLooeWILrVByKCqP8BfnTLVS06gT1xYlIo',loop:1}
+        playerVars:{modestbranding:1,start:10,end:349,autoplay: 0,mute:0,listType: 'playlist',loop:1}
     };
     const onReady=(e)=> {
         console.log('onReady');
