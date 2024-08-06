@@ -6,7 +6,7 @@ import YouTube from 'react-youtube';
 
 function YtBox() {
     
-    let videoId='h8dlyrsHeJc';    //h8dlyrsHeJc
+    let videoId='UvyWc4acG7M';    //h8dlyrsHeJc
     let aspectRatio="16:9";            /* default -> "16:9" */
     let overlay="rgba(0,0,0,.0)";                /* default -> null | e.g. "rgba(0,0,0,.4)" */
     let className=null;              /* default -> null */
@@ -31,7 +31,7 @@ function YtBox() {
         console.log('onPlay');
         e.target.setVolume(50);
         // e.target.unMute(); Youtube api can't autoplay with unmute
-        if(String(tmp_vid)=='h8dlyrsHeJc'){
+        if(String(tmp_vid)=='UvyWc4acG7M'){
             if (currentTime < 10) {
                 e.target.seekTo(10);
                 
@@ -61,7 +61,7 @@ function YtBox() {
                 overlay={overlay}                /* default -> null | e.g. "rgba(0,0,0,.4)" */
                 className={className}              /* default -> null */
                 nocookie={nocookie}                 /* default -> false | sets host to https:/*www.youtube-nocookie.com to avoid loading Google's cookies */
-                opts={opts}          /* default -> {}  | https://developers.google.com/youtube/player_parameters*/
+               // opts={opts}          /* default -> {}  | https://developers.google.com/youtube/player_parameters*/
                 onReady={(e) => onReady(e)}                  /* default -> null | returns event with player object */
                 onEnd={null}                    /* default -> null | returns event with player object */
                 onPlay={onPlay}                   /* default -> null | returns event with player object */
