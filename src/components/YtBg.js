@@ -47,7 +47,7 @@ function YtBg() {
             videoId={videoId}                /* default -> null */
             aspectRatio={aspectRatio}            /* default -> "16:9" */
             overlay={null}                /* default -> null | e.g. "rgba(0,0,0,.4)" */
-            className={className}              /* default -> null */
+            //className={className}              /* default -> null */
             nocookie={nocookie}                 /* default -> false | sets host to https:/*www.youtube-nocookie.com to avoid loading Google's cookies */
             playerOptions={playerOptions}          /* default -> {}  | https://developers.google.com/youtube/player_parameters*/
             onReady={(e) => onReady(e)}                  /* default -> null | returns event with player object */
