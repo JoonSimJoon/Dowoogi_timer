@@ -15,8 +15,7 @@ function YtBox() {
     let opts={
         
         height: '100%',
-        width: '100%',
-        playerVars:{modestbranding:1,start:10,end:349,autoplay: 1,mute:1,listType: 'playlist',list: 'PLooeWILrVByKCqP8BfnTLVS06gT1xYlIo',loop:1}
+        width: '100%'
     };
     const onReady=(e)=> {
         console.log('onReady');
